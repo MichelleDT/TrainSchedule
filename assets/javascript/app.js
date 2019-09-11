@@ -7,6 +7,12 @@ var config = {
 	messagingSenderId: "199206818561",
 	appId: "1:199206818561:web:6fade7bcdfb0c7f5bd4100"
   };
+
+  // apiKey: "AIzaSyASyaPm8uh9R0qa8dDolAIjrE5Rn10rVt8",
+  //authDomain: "click-counter-f806a.firebaseapp.com",
+  //databaseURL: "https://click-counter-f806a.firebaseio.com",
+  //projectId: "click-counter-f806a",
+  //storageBucket: "click-counter-f806a.appspot.com",
   
   firebase.initializeApp(config);
   var database = firebase.database();
